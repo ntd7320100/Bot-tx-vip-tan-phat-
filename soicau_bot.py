@@ -6,10 +6,10 @@ from collections import Counter
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = "thay token bot riêng"
+BOT_TOKEN = "8104621483:AAFn-qtWY-G2yQLGrZvZtFsYhmP0k4CpMAI"
 ACCESS_TOKEN = "05%2F7JlwSPGwB1fKzi7qXLCUfxG%2F%2FwnP9B3UwDAmuWFLx4HmwqXGCmY2f%2BwVswnATdeJ1hnJUb8JEaXWr%2Bkf3SYji9zW1F5urA9fmlQia331SqlIQmeUS94Mz3ywCtmnj6ssOz4%2BcY91MtHQ1Z5Mchw0tGuI2SZx20zkVqWxbmMPbd8p3UyVQkYqPwgCPexrDhln59UbKBB2akAHlUFDedlcZ0jCROET21tYzOiNB1L36Uz6bWusDsxinaPChHhj4tJokZnWu8NeeDGXWLSeSr%2F00etslH1TXwCrs%2BrD4Dj%2B3OmJ3VlTStVXCEQLMwKvrMdILytS%2FBIYsfAZW%2BMDKlbHbfSbhlyb2jrYRX7ekIiTrO%2BYBr3m%2FKPMS79IxrWixb3geXzgczyY%3D.e90dcc10d9f881cd1b07d25587d93980e2c03e9207a35888e6da3500abcb5fbb" 
 API_URL = "https://taixiu.backend-sunvn30.online/api/luckydice/GetSoiCau"
-ADMIN_ID = thay id admin
+ADMIN_ID = 6925198778
 
 def load_json(filename, default):
     if not os.path.exists(filename):
